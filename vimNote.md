@@ -1,18 +1,18 @@
 # Vim tutorial cheat sheet
 
-## In vim we have 3 type of mode
+## in vim we have 3 type of mode
 
-1. normal mode => Esc button
-2. insert mode => I button
-3. visual mode => v or shift -> V
+1. normal mode => esc button
+2. insert mode => i button
+3. visual mode => v or shift -> v
 
 ```
-Esc = Back to normal mode
-i = Insert mode
-v = Visual mode
+esc = back to normal mode
+i = insert mode
+v = visual mode
 ```
 
-# How to exit in vim
+# how to exit in vim
 
 ```
 :wq = save all change and quit
@@ -20,7 +20,7 @@ v = Visual mode
 
 ```
 
-# Moving the Cursor in Vim
+# moving the cursor in vim
 
 ```
 k = go to up
@@ -43,6 +43,24 @@ gg = go up the whole page
 G = go down the whole page down
 ```
 
+# how to go inset mode to command mode 
+esc = back to normal (command mode)
+ctrl + c = command mode
+ctrl +[ = command mode 
+
+* ctrl + c my fav
+```
+o = go to insert mode in next line
+O = go to insert mode in upper line
+
+```
+## some more command to go insert mode 
+this command is a huge time saver so use them all in your work space 
+```
+a = go insert mode in left side 
+shift + i = go to the beginning of the line 
+
+```
 # skip block of code
 
 you can skip block of code using curly brace
