@@ -17,73 +17,73 @@
     set undofile
     set incsearch
    set termguicolors
-   19 set scrolloff=8
-   20 " set noshowmode
-   21 set signcolumn=yes
-   22 set isfname+=@-@
+    set scrolloff=8
+    " set noshowmode
+    set signcolumn=yes
+    set isfname+=@-@
  set isfname+=@-@
-   11 " set ls=0
-   10 set complete+=kspell
-    9 set completeopt=menuone,longest
-    8 
-    7 " Give more space for displaying messages.
-    6 set cmdheight=1
-    5 
-    4 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-    3 " delays and poor user experience.
-    2 set updatetime=50
-    1 
-  35  " Don't pass messages to |ins-completion-menu|.
-    1 set shortmess+=c
-    2 
-    3 set colorcolumn=80
-    4 "youtube 
-    5 
-    6 set path+=**
-    7 "Display all mathcing files when we tab complete
-    8 set wildmenu
+    " set ls=0
+    set complete+=kspell
+   set completeopt=menuone,longest
+   
+   " Give more space for displaying messages.
+   set cmdheight=1
+   
+   " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+   " delays and poor user experience.
+   set updatetime=50
+   
+    " Don't pass messages to |ins-completion-menu|.
+   set shortmess+=c
+   
+   set colorcolumn=80
+     "youtube 
+   
+   set path+=**
+   "Display all mathcing files when we tab complete
+   set wildmenu
 " NOW WE CAN :
-   12 " - hit tab to :find by partial match
-   11 " - Use * to make it fuzzy
-   10 " AUTOCOMPLETE: 
-    9 " -use ^n and ^p to go back and forth in suggestion list
-    8 
-    7 call plug#begin('~/.vim/plugged')
-    6 
-    5 Plug 'jremmen/vim-ripgrep'
-    4 Plug 'tpope/vim-fugitive'
-    3 Plug 'leafgarland/typescript-vim'
-    2 Plug 'vim-utils/vim-man'
-    1 Plug 'lyuts/vim-rtags'
-  57  "Plug 'mbbil/undotree'
-    1 Plug 'https://github.com/ycm-core/YouCompleteMe'
-    2 " emmet plug
-    3 Plug 'mattn/emmet-vim'
-    4 " prettier
-    5 Plug 'sbdchd/neoformat'
-    6 
-    7 
-    8 Plug 'rust-lang/rust.vim'
+    " - hit tab to :find by partial match
+    " - Use * to make it fuzzy
+    " AUTOCOMPLETE: 
+   " -use ^n and ^p to go back and forth in suggestion list
+   
+   call plug#begin('~/.vim/plugged')
+   
+   Plug 'jremmen/vim-ripgrep'
+   Plug 'tpope/vim-fugitive'
+   Plug 'leafgarland/typescript-vim'
+   Plug 'vim-utils/vim-man'
+   Plug 'lyuts/vim-rtags'
+    "Plug 'mbbil/undotree'
+   Plug 'https://github.com/ycm-core/YouCompleteMe'
+   " emmet plug
+   Plug 'mattn/emmet-vim'
+   " prettier
+   Plug 'sbdchd/neoformat'
+   
+   
+   Plug 'rust-lang/rust.vim'
  Plug 'darrikonn/vim-gofmt'
-   12 Plug 'tpope/vim-fugitive'
-   11 Plug 'junegunn/gv.vim'
-   10 Plug 'vim-utils/vim-man'
-    9 Plug 'mbbill/undotree'
-    8 Plug 'tpope/vim-dispatch'
-    7 Plug 'theprimeagen/vim-be-good'
-    6 Plug 'gruvbox-community/gruvbox'
-    5 Plug 'tpope/vim-projectionist'
-    4 
-    3 
-    2 Plug 'vim-scripts/AutoComplPop'
-    1 
-  79  Plug 'wokalski/autocomplete-flow'
-    1 Plug 'jiangmiao/auto-pairs'
-    2 Plug 'scrooloose/NERDTree'
-    3 
-    4 call plug#end()
-    5 
-    6 
-    7 colorscheme gruvbox
-    8 set background=dark
+    Plug 'tpope/vim-fugitive'
+    Plug 'junegunn/gv.vim'
+    Plug 'vim-utils/vim-man'
+   Plug 'mbbill/undotree'
+   Plug 'tpope/vim-dispatch'
+   Plug 'theprimeagen/vim-be-good'
+   Plug 'gruvbox-community/gruvbox'
+   Plug 'tpope/vim-projectionist'
+   
+   
+   Plug 'vim-scripts/AutoComplPop'
+   
+   Plug 'wokalski/autocomplete-flow'
+   Plug 'jiangmiao/auto-pairs'
+   Plug 'scrooloose/NERDTree'
+   
+   call plug#end()
+   
+   
+   colorscheme gruvbox
+   set background=dark
 
