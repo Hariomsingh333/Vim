@@ -1,22 +1,22 @@
  syntax on
-    1 filetype plugin indent on
-    2 set guicursor=
-    3 set relativenumber
-    4 set nohlsearch
-    5 set hidden
-    6 set noerrorbells
-    7 set tabstop=4 softtabstop=4
-    8 set shiftwidth=4
-    9 set expandtab
-   10 set smartindent
-   11 set nu
-   12 set nowrap
-   13 set noswapfile
-   14 set nobackup
-   15 set undodir=~/.vim/undodir
-   16 set undofile
-   17 set incsearch
-   18 set termguicolors
+     filetype plugin indent on
+     set guicursor=
+     set relativenumber
+     set nohlsearch
+     set hidden
+     set noerrorbells
+     set tabstop=4 softtabstop=4
+     set shiftwidth=4
+    set expandtab
+    set smartindent
+    set nu
+    set nowrap
+    set noswapfile
+    set nobackup
+    set undodir=~/.vim/undodir
+    set undofile
+    set incsearch
+   set termguicolors
    19 set scrolloff=8
    20 " set noshowmode
    21 set signcolumn=yes
