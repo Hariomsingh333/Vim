@@ -33,6 +33,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Formatter
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" LSP 
+Plug 'neovim/nvim-lspconfig'
+
+" telescope 
+
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 " Comment and uncomment lines
 Plug 'preservim/nerdcommenter'
 
